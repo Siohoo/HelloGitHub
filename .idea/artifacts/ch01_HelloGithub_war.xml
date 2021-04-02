@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ch01-HelloGithub:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ch01-HelloGithub</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ch01-HelloGithub.war">
+      <element id="artifact" artifact-name="ch01-HelloGithub:war exploded" />
+    </root>
+  </artifact>
+</component>
